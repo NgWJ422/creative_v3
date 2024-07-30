@@ -10,7 +10,6 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
  #Googleform{
   text-align: center;
  }
@@ -41,6 +40,7 @@
 .swiper-container {
   width: 100%;
   padding: 20px 0;
+  overflow: hidden;
 }
 
 .swiper-slide {
@@ -143,6 +143,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
 }
 
 hr {
