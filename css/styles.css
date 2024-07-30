@@ -13,6 +13,18 @@
  #Googleform{
   text-align: center;
  }
+
+ .navbar {
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and borders are included in width */
+}
+
+.container {
+  width: 100%;
+  max-width: 100%; /* Ensure container doesn't exceed viewport width */
+  padding: 0 15px; /* Adjust padding to avoid overflow */
+  box-sizing: border-box; /* Include padding and borders in width */
+}
 /* Card styling */
 .card {
   border: none;
@@ -144,6 +156,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   overflow-x: hidden;
+
 }
 
 hr {
